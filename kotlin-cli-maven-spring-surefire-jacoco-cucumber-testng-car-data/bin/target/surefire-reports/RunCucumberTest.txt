@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 13.343 s <<< FAILURE! - in RunCucumberTest
+RunCucumberTest.runScenario["Get car price", "Optional[Car]"](4)  Time elapsed: 2.692 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'Car price should be 0' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("Car price should be {int}")
+public void car_price_should_be(Integer int1) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
